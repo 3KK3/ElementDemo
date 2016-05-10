@@ -15,6 +15,8 @@
 		89D247571CE1E4BC002F9CDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89D247551CE1E4BC002F9CDA /* LaunchScreen.storyboard */; };
 		89D247621CE1E4BD002F9CDA /* ElementDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D247611CE1E4BD002F9CDA /* ElementDemoTests.m */; };
 		89D2476D1CE1E4BD002F9CDA /* ElementDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D2476C1CE1E4BD002F9CDA /* ElementDemoUITests.m */; };
+		89D2477C1CE1E4C9002F9CDA /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D2477B1CE1E4C9002F9CDA /* Utility.m */; };
+		89D2477E1CE1EA7C002F9CDA /* 屏幕快照 2016-05-10 下午6.06.26.png in Resources */ = {isa = PBXBuildFile; fileRef = 89D2477D1CE1EA7C002F9CDA /* 屏幕快照 2016-05-10 下午6.06.26.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		89D247681CE1E4BD002F9CDA /* ElementDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElementDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89D2476C1CE1E4BD002F9CDA /* ElementDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElementDemoUITests.m; sourceTree = "<group>"; };
 		89D2476E1CE1E4BD002F9CDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89D2477A1CE1E4C9002F9CDA /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		89D2477B1CE1E4C9002F9CDA /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		89D2477D1CE1EA7C002F9CDA /* 屏幕快照 2016-05-10 下午6.06.26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "屏幕快照 2016-05-10 下午6.06.26.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,9 @@
 				89D2474B1CE1E4BC002F9CDA /* AppDelegate.m */,
 				89D2474D1CE1E4BC002F9CDA /* ViewController.h */,
 				89D2474E1CE1E4BC002F9CDA /* ViewController.m */,
+				89D2477A1CE1E4C9002F9CDA /* Utility.h */,
+				89D2477B1CE1E4C9002F9CDA /* Utility.m */,
+				89D2477D1CE1EA7C002F9CDA /* 屏幕快照 2016-05-10 下午6.06.26.png */,
 				89D247501CE1E4BC002F9CDA /* Main.storyboard */,
 				89D247531CE1E4BC002F9CDA /* Assets.xcassets */,
 				89D247551CE1E4BC002F9CDA /* LaunchScreen.storyboard */,
@@ -245,6 +253,7 @@
 			files = (
 				89D247571CE1E4BC002F9CDA /* LaunchScreen.storyboard in Resources */,
 				89D247541CE1E4BC002F9CDA /* Assets.xcassets in Resources */,
+				89D2477E1CE1EA7C002F9CDA /* 屏幕快照 2016-05-10 下午6.06.26.png in Resources */,
 				89D247521CE1E4BC002F9CDA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89D2477C1CE1E4C9002F9CDA /* Utility.m in Sources */,
 				89D2474F1CE1E4BC002F9CDA /* ViewController.m in Sources */,
 				89D2474C1CE1E4BC002F9CDA /* AppDelegate.m in Sources */,
 				89D247491CE1E4BC002F9CDA /* main.m in Sources */,
@@ -498,6 +508,7 @@
 				89D247731CE1E4BD002F9CDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		89D247741CE1E4BD002F9CDA /* Build configuration list for PBXNativeTarget "ElementDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +517,7 @@
 				89D247761CE1E4BD002F9CDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		89D247771CE1E4BD002F9CDA /* Build configuration list for PBXNativeTarget "ElementDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +526,7 @@
 				89D247791CE1E4BD002F9CDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
